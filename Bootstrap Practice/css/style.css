@@ -1,0 +1,572 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+#links {
+  color: #737373;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#btnBgGreen {
+  background-color: #96BB7C;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 15px 22px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#btnCoGreen {
+  color: #96BB7C;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 15px 22px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.section {
+  position: relative;
+  height: 100vh;
+}
+
+#btnCoGreenBorder {
+  color: #96BB7C;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 15px 22px;
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid #96BB7C;
+}
+
+#h6Top {
+  color: #96BB7C;
+}
+
+#h1Students {
+  font-size: 60px;
+  color: #252B42;
+}
+
+#topP {
+  color: #737373;
+}
+
+.rectangle1 {
+  width: 70%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #EFF8ED;
+  z-index: -1;
+  height: 700px;
+  border-top-right-radius: 15%;
+}
+
+.rectangle2 {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #F6FAFF;
+  z-index: 0;
+  height: 700px;
+  border-bottom-left-radius: 20%;
+}
+
+#cardMain {
+  margin-top: -270px;
+}
+
+#cards {
+  box-shadow: 3px 13px 19px 4px rgba(0, 0, 0, 0.07);
+}
+
+#cardH3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #252B42;
+  position: relative;
+}
+
+#cardH3:after {
+  content: "";
+  position: absolute;
+  top: 150%;
+  left: 0;
+  width: 23%;
+  height: 2px;
+  background-color: #E74040;
+}
+
+#cardP, #cardPtext {
+  font-size: 15px;
+  font-weight: 600;
+  color: #737373;
+}
+
+.section2 {
+  width: 100%;
+  height: 100%;
+  margin: 400px 0;
+}
+
+#girl {
+  width: 650px;
+}
+
+.sec2H {
+  font-size: 40px;
+  font-weight: 700;
+  position: relative;
+  color: #252B42;
+}
+
+.sec2H:before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: 0;
+  background-color: #E74040;
+  width: 25%;
+  height: 7px;
+}
+
+.sec2P {
+  padding: 35px 0;
+  font-size: 18px;
+  color: #737373;
+  font-weight: 500;
+}
+
+#learnMore {
+  color: #96BB7C;
+  font-weight: 700;
+  position: relative;
+  padding: 10px 0;
+}
+
+#learnMore::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #96BB7C;
+  width: 0%;
+  height: 2px;
+  transition: 0.5s ease;
+}
+
+#learnMore:hover::before {
+  width: 100%;
+}
+
+.section3 {
+  width: 100%;
+  height: 100%;
+  margin: 400px 0;
+}
+
+.imgSS {
+  position: relative;
+}
+
+#shop {
+  border-radius: 20px;
+  filter: brightness(60%);
+}
+
+#playBtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #96BB7C;
+  border-radius: 50%;
+}
+
+#playBtn:hover {
+  background-color: transparent;
+  border: 2px solid #96BB7C;
+}
+
+.bi-play-fill {
+  padding: 4px;
+  font-size: 40px;
+  color: white;
+}
+
+.secton4 {
+  width: 100%;
+  height: 100vh;
+  margin: 400px 0;
+}
+
+.sec4H {
+  font-size: 40px;
+  font-weight: 700;
+  position: relative;
+  color: #252B42;
+}
+
+#noRadius {
+  border-radius: 0;
+}
+
+#p1Card {
+  font-size: 15px;
+  font-weight: 600;
+  color: #96BB7C;
+}
+
+.sale {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #E74040;
+  color: white;
+  font-weight: 700;
+  padding: 5px 8px;
+  border-radius: 4px;
+}
+
+#starSpan {
+  font-weight: 500;
+  background-color: #2D4059;
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.bi-star-fill {
+  color: #FFCE31;
+}
+
+.oldPrice {
+  font-weight: 700;
+  color: #BDBDBD;
+}
+
+.newPrice {
+  font-weight: 700;
+  color: #FFAB71;
+}
+
+#lMbtn {
+  border: 1px solid #96BB7C;
+  color: #96BB7C;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.card-btns {
+  width: -moz-max-content;
+  width: max-content;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+}
+
+#card-btn {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+}
+
+#card-btn i {
+  font-size: 22px;
+}
+
+.section5 {
+  margin-top: 300px;
+  width: 100%;
+  height: 100vh;
+}
+
+.singleBlock {
+  width: 60%;
+}
+
+#designerPersonImg {
+  border-radius: 50%;
+  width: 130px;
+}
+
+#starUnfilled {
+  color: #FFCE31;
+}
+
+.emailSection {
+  background-color: #FFF2F3;
+  height: 600px;
+  display: grid;
+}
+
+.innerDivEmail {
+  margin: auto;
+  width: 100%;
+}
+
+#emailInput {
+  font-size: 17px;
+  padding: 20px;
+  outline: none;
+}
+
+#inputGroup {
+  width: 70%;
+  margin: auto;
+}
+
+#emailBtn {
+  font-size: 17px;
+  padding: 20px;
+  background-color: #96BB7C;
+  border: none;
+  transition: 0.2s linear;
+}
+
+#emailBtn:hover {
+  background-color: transparent;
+  border: 1px solid #96BB7C;
+  color: #96BB7C;
+}
+
+#LinksFooterBlock {
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #737373;
+  padding-top: 10px;
+}
+
+#footerIcons {
+  color: #96BB7C;
+  font-size: 25px;
+}
+
+.letzteBlock {
+  background-color: #FAFAFA;
+  display: grid;
+}
+
+.rightReserved {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  align-items: center;
+}
+
+.rightReserved p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #737373;
+  margin: auto 0;
+}
+
+.socIcon i {
+  font-size: 30px;
+  padding: 0 10px;
+  color: #96BB7C;
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+  #h1Students {
+    font-size: 25px;
+  }
+  #h6Top {
+    font-size: 14px;
+  }
+  #cardP {
+    font-size: 14px;
+  }
+  #h1Students {
+    font-size: 45px;
+  }
+  #topP {
+    font-size: 16px;
+  }
+  #btnBgGreen, #btnCoGreenBorder {
+    font-size: 13px;
+  }
+  #cardH3 {
+    font-size: 21px;
+  }
+  .sec2H {
+    font-size: 35px;
+  }
+  .sec2P, .py-3, #LinksFooterBlock, .price {
+    font-size: 15px;
+  }
+  .sec2H:before {
+    height: 5px;
+  }
+  .card-title, .name {
+    font-size: 18px;
+  }
+  #job, #starSpan, #p1Card {
+    font-size: 12px;
+  }
+  #cardPtext, #lMbtn {
+    font-size: 13px;
+  }
+  #made {
+    font-size: 10px;
+  }
+  #footerIcons {
+    font-size: 22px;
+  }
+  #social {
+    font-size: 27px;
+  }
+  .sale {
+    font-size: 12px;
+  }
+  .section {
+    height: 100%;
+  }
+  #cardMain {
+    margin-top: 170px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  #cardMain {
+    margin-top: -280px;
+  }
+  #logo {
+    font-size: 20px;
+  }
+  #h6Top {
+    font-size: 12px;
+  }
+  #cardP {
+    font-size: 12px;
+  }
+  #h1Students {
+    font-size: 28px;
+  }
+  #topP {
+    font-size: 14px;
+  }
+  #btnBgGreen, #btnCoGreenBorder {
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-left: 0 !important;
+    width: 80%;
+  }
+  #cardH3 {
+    font-size: 21px;
+    padding-bottom: 0 !important;
+  }
+  .sec2H, .sec4H {
+    font-size: 25px;
+  }
+  .sec2P, .py-3, #LinksFooterBlock, .price {
+    font-size: 12px;
+  }
+  .sec2H:before {
+    height: 5px;
+  }
+  .card-title, .name {
+    font-size: 15px;
+  }
+  #job, #starSpan, #p1Card {
+    font-size: 10px;
+  }
+  #cardPtext, #lMbtn {
+    font-size: 12px;
+  }
+  #made {
+    font-size: 6px;
+  }
+  #footerIcons {
+    font-size: 20px;
+  }
+  #social {
+    font-size: 22px;
+  }
+  #learnMore {
+    font-size: 14px;
+  }
+  .bi-play-fill {
+    font-size: 25px;
+    padding: 2px;
+  }
+  .sale {
+    font-size: 10px;
+  }
+  #card-btn i {
+    font-size: 12px;
+  }
+  #card-btn {
+    width: 36px;
+    height: 36px;
+  }
+  #noRadius #cardP {
+    font-size: 12px;
+  }
+  #lMbtnBtn {
+    margin: auto;
+    display: flex;
+  }
+  .card-body {
+    padding: 0 !important;
+  }
+  #p1Card {
+    padding-top: 10px;
+  }
+  .emailSection {
+    margin-top: 350px;
+  }
+  #inputGroup {
+    width: 100%;
+  }
+  #emailBtn {
+    font-size: 13px;
+    padding: 0 7px;
+  }
+  #emailInput {
+    font-size: 13px;
+    padding: auto 7px;
+  }
+  .firstBlock {
+    text-align: center;
+  }
+}
+@media (min-width: 1400px) {
+  .section {
+    height: 100%;
+  }
+  #cardMain {
+    margin-top: -160px;
+  }
+}
+@media (min-width: 1200px) {
+  .section {
+    height: 100%;
+  }
+  #cardMain {
+    margin-top: -160px;
+  }
+}
+@media (min-width: 992px) {
+  .section {
+    height: 100%;
+  }
+  #cardMain {
+    margin-top: -150px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .section {
+    height: 100%;
+  }
+  #cardMain {
+    margin-top: 150px;
+  }
+}/*# sourceMappingURL=style.css.map */

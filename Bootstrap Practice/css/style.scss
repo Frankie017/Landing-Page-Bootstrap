@@ -1,0 +1,605 @@
+$text-color: #252B42;
+$main-green: #96BB7C;
+$main-red: #E74040;
+$main-orange: #FFAB71;
+$gray-text-color: #737373;
+$main-font: 'Montserrat', sans-serif;
+$faded-color: #EFF8ED;
+$faded-blue: #F6FAFF;
+
+* {
+    font-family: $main-font;
+}
+
+#links {
+    color: $gray-text-color;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: $main-font;
+}
+
+#btnBgGreen {
+    background-color: $main-green;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 22px;
+    font-family: $main-font;
+}
+
+#btnCoGreen {
+    color: $main-green;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 22px;
+    font-family: $main-font;
+}
+
+.section {
+    position: relative;
+    height: 100vh;
+}
+
+#btnCoGreenBorder {
+    color: $main-green;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 22px;
+    font-family: $main-font;
+    border: 1px solid $main-green;
+}
+
+#h6Top {
+    color: $main-green;
+}
+
+#h1Students {
+    font-size: 60px;
+    color: $text-color;
+}
+
+#topP {
+    color: $gray-text-color;
+}
+
+.rectangle1 {
+    width: 70%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $faded-color;
+    z-index: -1;
+    height: 700px;
+    border-top-right-radius: 15%;
+}
+
+.rectangle2 {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: $faded-blue;
+    z-index: 0;
+    height: 700px;
+    border-bottom-left-radius: 20%;
+}
+
+// Styling of a cards
+
+#cardMain {
+   margin-top: -270px;
+}
+
+#cards {
+    box-shadow: 3px 13px 19px 4px rgba(0, 0, 0, 0.07);
+}
+
+#cardH3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: $text-color;
+    position: relative;
+}
+
+#cardH3:after {
+    content: "";
+    position: absolute;
+    top: 150%;
+    left: 0;
+    width: 23%;
+    height: 2px;
+    background-color: $main-red;
+}
+
+#cardP, #cardPtext {
+    font-size: 15px;
+    font-weight: 600;
+    color: $gray-text-color;
+}
+
+
+// Section 2
+
+.section2 {
+    width: 100%;
+    height: 100%;
+    margin: 400px 0;
+}
+
+#girl {
+    width: 650px;
+}
+
+.sec2H {
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    color: $text-color;
+}
+
+.sec2H:before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: 0;
+    background-color: $main-red;
+    width: 25%;
+    height: 7px;
+}
+
+.sec2P {
+    padding: 35px 0;
+    font-size: 18px;
+    color: $gray-text-color;
+    font-weight: 500;
+}
+
+#learnMore {
+    color: $main-green;
+    font-weight: 700;
+    position: relative;
+    padding: 10px 0;
+}
+
+#learnMore::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: $main-green;
+    width: 0%;
+    height: 2px;
+    transition: .5s ease;
+}
+
+#learnMore:hover::before{
+    width: 100%;
+}
+
+// Section 3
+
+.section3 {
+    width: 100%;
+    height: 100%;
+    margin: 400px 0;
+}
+
+.imgSS {
+    position: relative;
+}
+
+#shop {
+    border-radius: 20px;
+    filter: brightness(60%);
+}
+
+#playBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: $main-green;
+    border-radius: 50%;
+}
+
+#playBtn:hover {
+    background-color: transparent;
+    border: 2px solid $main-green;
+}
+
+.bi-play-fill {
+    padding: 4px;
+    font-size: 40px;
+    color: white;
+}
+
+// Section 4 
+
+.secton4 {
+    width: 100%;
+    height: 100vh;
+    margin: 400px 0;
+}
+
+.sec4H {
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    color: $text-color;
+}
+
+#noRadius {
+    border-radius: 0;
+}
+
+#p1Card {
+    font-size: 15px;
+    font-weight: 600;
+    color: $main-green;
+}
+
+.sale {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: $main-red;
+    color: white;
+    font-weight: 700;
+    padding: 5px 8px;
+    border-radius: 4px;
+}
+
+#starSpan {
+    font-weight: 500;
+    background-color: #2D4059;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.bi-star-fill {
+    color: #FFCE31;
+}
+
+.oldPrice {
+    font-weight: 700;
+    color: #BDBDBD;
+}
+
+.newPrice {
+    font-weight: 700;
+    color: #FFAB71;
+}
+
+#lMbtn {
+    border: 1px solid $main-green;
+    color: $main-green;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.card-btns  {
+    width: max-content;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+}
+
+#card-btn {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+}
+
+#card-btn i  {
+    font-size: 22px;
+}
+
+.section5 {
+    margin-top: 300px;
+    width: 100%;
+    height: 100vh;
+}
+
+.singleBlock {
+    width: 60%;
+}
+
+#designerPersonImg {
+    border-radius: 50%;
+    width: 130px;
+}
+
+
+#starUnfilled {
+    color: #FFCE31;
+}
+
+// Email Div
+.emailSection {
+    background-color: #FFF2F3;
+    height: 600px;
+    display: grid;
+}
+.innerDivEmail {
+    margin: auto;
+    width: 100%;
+}
+
+#emailInput {
+    font-size: 17px;
+    padding: 20px;
+    outline: none;
+}
+
+#inputGroup {
+    width: 70%;
+    margin: auto;
+}
+
+#emailBtn {
+    font-size: 17px;
+    padding: 20px;
+    background-color: #96BB7C;
+    border: none;
+    transition: .2s linear;
+}
+
+#emailBtn:hover {
+    background-color: transparent;
+    border: 1px solid #96BB7C;
+    color: #96BB7C;
+}
+
+// Footer
+// Footer
+
+#LinksFooterBlock {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    color: $gray-text-color;
+    padding-top: 10px;
+}
+
+#footerIcons {
+    color: $main-green;
+    font-size: 25px;   
+}
+
+.letzteBlock {
+    background-color: #FAFAFA;
+    display: grid;
+}
+
+.rightReserved {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.rightReserved p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #737373;
+    margin: auto 0;
+}
+
+.socIcon i {
+    font-size: 30px;
+    padding: 0 10px;
+    color: $main-green;
+}
+
+@media (min-width: 576px) and (max-width: 992px) { 
+
+    #h1Students {
+        font-size: 25px;
+    }
+    #h6Top {
+        font-size: 14px;
+    }
+
+    #cardP {
+        font-size: 14px;
+    }
+    #h1Students {
+        font-size: 45px;
+    }
+    #topP {
+        font-size: 16px;
+    }
+    #btnBgGreen, #btnCoGreenBorder {
+        font-size: 13px;
+    }
+    #cardH3 {
+        font-size: 21px;
+    }
+    .sec2H {
+        font-size: 35px;
+    }
+    .sec2P, .py-3, #LinksFooterBlock, .price   {
+        font-size: 15px;
+    }
+    .sec2H:before {
+        height: 5px;
+    }
+    .card-title, .name {
+        font-size: 18px;
+    }
+    #job, #starSpan, #p1Card {
+        font-size: 12px;
+    }
+    #cardPtext, #lMbtn {
+        font-size: 13px;
+    }
+    #made {
+        font-size: 10px;
+    }
+    #footerIcons {
+        font-size: 22px;
+    }
+    #social {
+        font-size: 27px;
+    }
+
+    .sale {
+        font-size: 12px;
+    }
+
+    .section {
+        height: 100%;
+    }
+    #cardMain {
+        margin-top: 170px;
+    }
+    
+ }
+ 
+ @media only screen and (max-width: 575px) {
+    #cardMain{
+        margin-top: -280px;
+    }
+    
+    #logo {
+        font-size: 20px;
+    }
+    #h6Top {
+        font-size: 12px;
+    }
+
+    #cardP {
+        font-size: 12px;
+    }
+    #h1Students {
+        font-size: 28px;
+    }
+    #topP {
+        font-size: 14px;
+    }
+    #btnBgGreen, #btnCoGreenBorder {
+        font-size: 12px;
+        margin-bottom: 10px;
+        margin-left: 0 !important;
+        width: 80%;
+    }
+    #cardH3 {
+        font-size: 21px;
+        padding-bottom: 0 !important;
+    }
+    .sec2H, .sec4H {
+        font-size: 25px;
+    }
+    .sec2P, .py-3, #LinksFooterBlock, .price   {
+        font-size: 12px;
+    }
+    .sec2H:before {
+        height: 5px;
+    }
+    .card-title, .name {
+        font-size: 15px;
+    }
+    #job, #starSpan, #p1Card {
+        font-size: 10px;
+    }
+    #cardPtext, #lMbtn {
+        font-size: 12px;
+    }
+    #made {
+        font-size: 6px;
+    }
+    #footerIcons {
+        font-size: 20px;
+    }
+    #social {
+        font-size: 22px;
+    }
+    #learnMore {
+        font-size: 14px;
+    }
+    .bi-play-fill {
+        font-size: 25px;
+        padding: 2px;
+    }
+    .sale {
+        font-size: 10px;
+    }
+    #card-btn i {
+        font-size: 12px;
+    }
+    #card-btn {
+        width: 36px;
+        height: 36px;
+    }
+
+    #noRadius #cardP {
+        font-size: 12px;
+    }
+    #lMbtnBtn{
+        margin: auto;
+        display: flex;
+    }    
+    .card-body {
+        padding: 0 !important;
+    } #p1Card {
+        padding-top: 10px;
+    }
+    .emailSection {
+        margin-top: 350px;
+    }
+    #inputGroup {
+        width: 100%;
+    }
+    #emailBtn {
+        font-size: 13px;
+        padding: 0 7px;
+    }
+    #emailInput {
+        font-size: 13px;
+        padding: auto 7px;
+    }
+    .firstBlock {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1400px) { 
+    .section {
+        height: 100%;
+    }
+    #cardMain {
+        margin-top: -160px;
+    }
+ }
+
+ @media (min-width: 1200px) {
+    .section {
+        height: 100%;
+    }
+    #cardMain {
+        margin-top: -160px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .section {
+        height: 100%;
+    }
+    #cardMain {
+        margin-top: -150px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 992px) { 
+    .section {
+        height: 100%;
+    }
+    #cardMain {
+        margin-top: 150px;
+    }
+   }
